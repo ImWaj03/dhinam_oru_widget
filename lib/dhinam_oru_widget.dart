@@ -1,4 +1,5 @@
 import 'package:dhinam_oru_widget/carousel_view_widget.dart';
+import 'package:dhinam_oru_widget/switch_widget.dart';
 import 'package:flutter/material.dart';
 
 class DhinamOruWidget extends StatelessWidget {
@@ -11,7 +12,7 @@ class DhinamOruWidget extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: CarouselViewWidget(),
+      home: SwitchWidget(),
     );
   }
 }
